@@ -24,20 +24,11 @@ React Native invokes Objective-C APIs to render to iOS components, or Java APIs 
 <br>
 
 ## Screenshot from the app
-<p align='center'>
-  <span>
-   <h2>HOME</h2>
-
-  <img src="https://res.cloudinary.com/dvyonb6zt/image/upload/v1563958035/Product/WhatsApp_Image_2019-07-24_at_15.40.33_c4kkfh.jpg" />
-<h2>Add Task</h2>
-  <img src="https://res.cloudinary.com/dvyonb6zt/image/upload/v1563958035/Product/WhatsApp_Image_2019-07-24_at_15.40.31_grq1ln.jpg" />
-<h2>Edit Task</h2>
-  <img src="https://res.cloudinary.com/dvyonb6zt/image/upload/v1563958035/Product/WhatsApp_Image_2019-07-24_at_15.40.34_ituzm7.jpg" />
-<h2>Side Category</h2>
-  <img src="https://res.cloudinary.com/dvyonb6zt/image/upload/v1563958035/Product/WhatsApp_Image_2019-07-24_at_15.46.27_kfnodh.jpg" />
-
-
-  </span>
-</p>
+<p align="center">
+    <img src="https://res.cloudinary.com/dvyonb6zt/image/upload/v1563958035/Product/WhatsApp_Image_2019-07-24_at_15.40.33_c4kkfh.jpg" width=400 align="center" style="margin-right:20px"/>
+    <img src="https://res.cloudinary.com/dvyonb6zt/image/upload/v1563958035/Product/WhatsApp_Image_2019-07-24_at_15.40.31_grq1ln.jpg" width=400 align="center" style="margin-right:20px"/>
+    <img src="https://res.cloudinary.com/dvyonb6zt/image/upload/v1563958035/Product/WhatsApp_Image_2019-07-24_at_15.40.34_ituzm7.jpg" width=400 align="center" style="margin-right:20px"/>
+    <img src="https://res.cloudinary.com/dvyonb6zt/image/upload/v1563958035/Product/WhatsApp_Image_2019-07-24_at_15.46.27_kfnodh.jpg" width=400 
+</p> 
 
 
