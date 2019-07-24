@@ -10,7 +10,7 @@ class Fab extends Component {
     _handler= () => {
         // this.props.navigation.navigate('NoteAdd')
         const { navigation } = this.props;
-        navigation.navigate('NoteAdd')
+        navigation.navigate('Add')
     }
     render(){
         return (

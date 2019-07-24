@@ -61,7 +61,7 @@ module.exports = StyleSheet.create({
         shadowOpacity: 0.34,
         shadowRadius: 6.27,
 
-        elevation: 10,
+        // elevation: 10,
       },
     fab: {
         backgroundColor: 'white',
@@ -69,13 +69,13 @@ module.exports = StyleSheet.create({
         height: 60,
         width: 60,
         position: 'absolute',
-        top: heightWindow / 1.5,
+        top: heightWindow / 1.25,
         right: 20,
         // bottom: 200,
-        elevation: 3,
+        elevation: 5,
         alignItems: 'center',
         justifyContent: 'center',
-        zIndex: 4 
+        zIndex: 100
         
     },
     iconHeader: {
@@ -139,10 +139,11 @@ module.exports = StyleSheet.create({
         shadowOpacity: 0.23,
         shadowRadius: 0.62,
         marginRight: 20,
-        elevation: 1,
+        // elevation: 1,
         backgroundColor:'#f0f0f0',
         alignSelf: "center",
-        padding:5
+        padding:5,
+        zIndex: 20
     },
     iconBox2:{
         position: 'absolute',
@@ -256,4 +257,32 @@ module.exports = StyleSheet.create({
     
         elevation: 24,
       },
+      sideBoxHead:{
+        flexDirection: 'column',
+        width: widthWindow /2,
+        height: heightWindow/2,
+        position: "absolute",
+        top: heightWindow /4,
+        left: 0,
+        borderColor: "rgba(45, 173, 78, 0.8)",
+        // borderLeftColor:
+        backgroundColor: 'white',
+        borderTopWidth: 3,
+        borderBottomWidth: 3,
+        borderRightWidth: 3,
+        zIndex: 999,
+        borderTopRightRadius: 20,
+        borderBottomRightRadius: 20
+      },
+      close: {
+        borderRadius: 100,
+        width: 50,
+        height: 50,
+        backgroundColor: "white",
+        borderColor: "rgba(45, 173, 78, 0.8)",
+        position: "absolute",
+        borderWidth: 3,
+        right: -15,
+        top: -15
+      }
 });

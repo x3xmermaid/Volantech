@@ -12,6 +12,9 @@ class EditList extends Component {
       componentDidMount(){
         this.props.dispatch(fetchCategory())
       }
+      _onPress= () => {
+        this.props.navigation.goBack()
+      }
     render() {
         console.log("this.props.category")
         console.log(this.props.data.category)
@@ -19,10 +22,10 @@ class EditList extends Component {
             <View style={styles.container}>
                 {/* <Text>Mermaid</Text> */}
                 <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-                    <View style={styles.iconBox3}>
+                    <TouchableOpacity style={styles.iconBox3} onPress={() => this._onPress()}>
                         <ImageBackground style={{ height: 40, width: 40 }}
                             source={require('../img/back.png')} />
-                    </View>
+                    </TouchableOpacity>
                     <View style={styles.headBox}>
                         <Text style={styles.headTitle} >Edit Task</Text>
                     </View>
